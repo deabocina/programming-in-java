@@ -10,11 +10,6 @@ import java.util.logging.Logger;
 import java.util.logging.Level;
 import java.util.List;
 
-import com.fasterxml.jackson.core.type.TypeReference;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import java.io.File;
-import java.io.IOException;
-
 public class WaterMeasure {
     private static final Logger logger = Logger.getLogger(WaterMeasure.class.getName());
     private List<Sensor> sensorList;
